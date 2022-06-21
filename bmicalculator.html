@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <h1>BMI Calculator</h1>
+    <!-- action relates to the route we want to process -->
+    <!-- method is post because we are sending info to this route -->
+    <form action="/" method="post">
+      <!-- the name specifies the variable to send -->
+      <!-- placeholder specifies non editable text inside the input -->
+      <input type="text" name="weight" placeholder="Weight in KGs">
+      <input type="text" name="height" placeholder="Height in Metres">
+      <!-- button type must be submit to send form data -->
+      <button type="submit" name="submit">Calculate BMI</button>
+    </form>
+  </body>
+</html>
